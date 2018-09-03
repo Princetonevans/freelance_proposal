@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180903134010) do
+ActiveRecord::Schema.define(version: 20180903142942) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "proposals", force: :cascade do |t|
     t.string   "customer"
-    t.string   "portfolo_url"
+    t.string   "portfolio_url"
     t.string   "tools"
     t.decimal  "estimated_hours"
     t.decimal  "hourly_rate"
